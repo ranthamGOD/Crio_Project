@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: hsl(220, 15%, 55%);
+  position: relative;
+}
+.card {
+  border: 2rem 2rem 2rem 2rem;
+  background-color: hsl(212, 45%, 89%);
+  padding: 1rem;
+  width: 19rem;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 4;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  max-width: fit-content;
+}
+
+.image {
+  border-radius: 0.7rem;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card-text {
+  color: gray;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
